@@ -1,44 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./resources/css/index.css" type="text/css" rel="stylesheet"> 
-  
-  <title> Sai's HTML Cheat Sheet' </title>
-
-
+  <title>HTML Cheat Sheet</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    code {
+      background: #eee;
+      padding: 5px;
+      font-family: monospace;
+    }
+    pre {
+      background: #ddd;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Saireek Williams</h1>
-  <p>I'm learning to code on Codecademy! My goals include:</p>
-  <ul>
-    <li>Learn to code</li>
-    <li>Start a company</li>
-    <li>Help the world</li>
-  </ul>
-  <p>This is one of my favorite websites: <a href="https://www.google.com/" target="_blank">Google</a></p>
+  <div class="container">
+    <h1>HTML Cheat Sheet</h1>
+    <p>Here are some commonly used HTML tags:</p>
 
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-  
-  &lt;meta charset=&quot;UTF-8&quot;&gt;
-  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
-  &lt;link href=&quot;./resources/css/index.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot;&gt; 
-  
-  &lt;title&gt; Sai&#39;s HTML Cheat Sheet&#39; &lt;/title&gt;
+    <h2>Text Formatting</h2>
+    <pre><code>&lt;p&gt;This is a paragraph&lt;/p&gt;</code></pre>
+    <pre><code>&lt;strong&gt;Bold Text&lt;/strong&gt;</code></pre>
+    <pre><code>&lt;em&gt;Italic Text&lt;/em&gt;</code></pre>
 
+    <h2>Lists</h2>
+    <pre><code>&lt;ul&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
 
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Saireek Williams&lt;/h1&gt;
-  &lt;p&gt;I&#39;m learning to code on Codecademy! My goals include:&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Learn to code&lt;/li&gt;
-    &lt;li&gt;Start a company&lt;/li&gt;
-    &lt;li&gt;Help the world&lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;p&gt;This is one of my favorite websites: &lt;a href=&quot;https://www.google.com/&quot; target=&quot;_blank&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;
+    <h2>Links</h2>
+    <pre><code>&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;</code></pre>
 
+    <h2>Images</h2>
+    <pre><code>&lt;img src="image.jpg" alt="Sample Image"&gt;</code></pre>
+
+    <h2>Forms</h2>
+    <pre><code>&lt;form&gt;
+  &lt;input type="text" placeholder="Enter text"&gt;
+  &lt;button type="submit"&gt;Submit&lt;/button&gt;
+&lt;/form&gt;</code></pre>
+  </div>
+</body>
+</html>
