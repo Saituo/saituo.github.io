@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  background-color: lightgray;
+  color: black;
+}
+
+h1, h2 {
+  color: darkblue;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px gray;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: navy;
+  color: white;
+}
+
+code {
+  background: lightyellow;
+  padding: 5px;
+  font-family: "Courier New", monospace;
+  border-radius: 3px;
+}
+
+pre {
+  background: lightgoldenrodyellow;
+  padding: 10px;
+  border-radius: 5px;
+}
