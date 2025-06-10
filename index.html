@@ -1,65 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML Cheat Sheet</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-      padding: 20px;
-      background-color: #f4f4f4;
-    }
-    h1, h2 {
-      color: #333;
-    }
-    .container {
-      max-width: 800px;
-      margin: auto;
-      background: white;
-      padding: 20px;
-      border-radius: 8px;
-    }
-    code {
-      background: #eee;
-      padding: 5px;
-      font-family: monospace;
-    }
-    pre {
-      background: #ddd;
-      padding: 10px;
-      border-radius: 5px;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <div class="container">
     <h1>HTML Cheat Sheet</h1>
-    <p>Here are some commonly used HTML tags:</p>
+    <p>Here are some commonly used HTML tags and attributes:</p>
 
-    <h2>Text Formatting</h2>
-    <pre><code>&lt;p&gt;This is a paragraph&lt;/p&gt;</code></pre>
-    <pre><code>&lt;strong&gt;Bold Text&lt;/strong&gt;</code></pre>
-    <pre><code>&lt;em&gt;Italic Text&lt;/em&gt;</code></pre>
+    <h2>HTML Tags Reference</h2>
+    <table>
+      <tr>
+        <th>Tag Name</th>
+        <th>Formatted Example</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td><code>&lt;p&gt;</code></td>
+        <td><p>Example Paragraph</p></td>
+        <td>Defines a paragraph</td>
+      </tr>
+      <tr>
+        <td><code>&lt;table&gt;</code></td>
+        <td><table><tr><td>Sample</td></tr></table></td>
+        <td>Creates a table structure</td>
+      </tr>
+      <tr>
+        <td><code>&lt;strong&gt;</code></td>
+        <td><strong>Bold Text</strong></td>
+        <td>Defines bold text</td>
+      </tr>
+      <tr>
+        <td><code>&lt;a&gt;</code></td>
+        <td><a href="#">Example Link</a></td>
+        <td>Creates hyperlinks</td>
+      </tr>
+    </table>
 
-    <h2>Lists</h2>
-    <pre><code>&lt;ul&gt;
-  &lt;li&gt;Item 1&lt;/li&gt;
-  &lt;li&gt;Item 2&lt;/li&gt;
-&lt;/ul&gt;</code></pre>
+    <h2>CSS Selectors & Specificity</h2>
+    <ul>
+      <li><code>element {}</code> - Selects all instances of a tag</li>
+      <li><code>.class {}</code> - Selects elements with a specific class</li>
+      <li><code>#id {}</code> - Selects elements with a specific ID</li>
+      <li>Inline styles > ID selectors > Class selectors > Element selectors</li>
+    </ul>
 
-    <h2>Links</h2>
-    <pre><code>&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;</code></pre>
-
-    <h2>Images</h2>
-    <pre><code>&lt;img src="image.jpg" alt="Sample Image"&gt;</code></pre>
-
-    <h2>Forms</h2>
-    <pre><code>&lt;form&gt;
-  &lt;input type="text" placeholder="Enter text"&gt;
-  &lt;button type="submit"&gt;Submit&lt;/button&gt;
-&lt;/form&gt;</code></pre>
+    <h2>Common CSS Properties</h2>
+    <pre><code>color: red;</code> - Sets text color</pre>
+    <pre><code>background-color: lightgray;</code> - Sets background color</pre>
+    <pre><code>margin: 10px;</code> - Defines external spacing</pre>
+    <pre><code>padding: 10px;</code> - Defines internal spacing</pre>
+    <pre><code>border: 2px solid black;</code> - Defines border properties</pre>
   </div>
 </body>
 </html>
