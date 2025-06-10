@@ -48,3 +48,30 @@ pre {
   padding: 10px;
   border-radius: 5px;
 }
+
+/* Advanced styling for semantic elements and forms */
+header, nav, article, aside, footer {
+  margin: 10px 0;
+}
+
+form {
+  margin: 20px 0;
+}
+
+input, button, select, textarea {
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: darkblue;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: navy;
+}
