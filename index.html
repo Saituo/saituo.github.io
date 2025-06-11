@@ -9,7 +9,7 @@
 <body>
   <div class="container">
     <h1>HTML &amp; CSS Advanced Cheat Sheet</h1>
-    <p>This cheat sheet provides a quick reference for both basic and advanced HTML elements, attributes, and modern CSS techniques including selectors, specificity, and layout properties.</p>
+    <p>This cheat sheet provides a quick reference for both basic and advanced HTML elements, attributes, modern CSS techniques, and an explanation about different types of buttons.</p>
     
     <!-- Basic HTML Elements -->
     <h2>Basic HTML Elements</h2>
@@ -39,7 +39,7 @@
       <tr>
         <td><code>&lt;meta&gt;</code></td>
         <td><meta name="description" content="Advanced HTML Cheat Sheet"></td>
-        <td>Specifies metadata for document search engines and browsers.</td>
+        <td>Specifies metadata for search engines and browsers.</td>
       </tr>
     </table>
 
@@ -56,7 +56,7 @@
         <td>
           <header style="background: lightblue; padding: 10px;">Header Section</header>
         </td>
-        <td>Represents introductory content for a document or section.</td>
+        <td>Represents introductory content.</td>
       </tr>
       <tr>
         <td><code>&lt;nav&gt;</code></td>
@@ -65,7 +65,7 @@
             <a href="#">Home</a> | <a href="#">Services</a> | <a href="#">Contact</a>
           </nav>
         </td>
-        <td>Defines navigation links.</td>
+        <td>Defines navigational links.</td>
       </tr>
       <tr>
         <td><code>&lt;article&gt;</code></td>
@@ -75,14 +75,14 @@
             <p>Article content goes here.</p>
           </article>
         </td>
-        <td>Represents a self-contained composition.</td>
+        <td>Represents self-contained content.</td>
       </tr>
       <tr>
         <td><code>&lt;aside&gt;</code></td>
         <td>
           <aside style="background: #eee; padding: 10px;">Sidebar content</aside>
         </td>
-        <td>Content indirectly related to the main content.</td>
+        <td>Content related to the main content.</td>
       </tr>
       <tr>
         <td><code>&lt;footer&gt;</code></td>
@@ -99,7 +99,7 @@
             Your browser does not support the video tag.
           </video>
         </td>
-        <td>Embeds a video file.</td>
+        <td>Embeds a video.</td>
       </tr>
     </table>
 
@@ -114,33 +114,33 @@
       <tr>
         <td><code>display</code></td>
         <td><code>display: flex;</code></td>
-        <td>Defines a flex container for flexible layouts.</td>
+        <td>Creates a flex container.</td>
       </tr>
       <tr>
         <td><code>grid-template-columns</code></td>
         <td><code>grid-template-columns: 1fr 2fr;</code></td>
-        <td>Specifies column structure in a CSS Grid layout.</td>
+        <td>Defines columns in a CSS Grid.</td>
       </tr>
       <tr>
         <td><code>box-shadow</code></td>
         <td><code>box-shadow: 4px 4px 8px gray;</code></td>
-        <td>Adds a shadow effect to elements.</td>
+        <td>Adds shadow effects.</td>
       </tr>
       <tr>
         <td><code>:hover</code> (Pseudo-class)</td>
         <td><code>a:hover { color: red; }</code></td>
-        <td>Changes styles on hover over an element.</td>
+        <td>Changes styles on hover.</td>
       </tr>
     </table>
 
     <!-- Advanced CSS Selectors & Specificity -->
     <h2>Advanced CSS Selectors &amp; Specificity</h2>
     <ul>
-      <li><code>element</code> - Targets all instances of an element (e.g., <code>p</code>).</li>
-      <li><code>.class</code> - Targets elements with a specific class (e.g., <code>.container</code>).</li>
-      <li><code>#id</code> - Targets a unique element with an ID (e.g., <code>#header</code>).</li>
-      <li><code>attribute selectors</code> - Example: <code>input[type="email"]</code>.</li>
-      <li><code>pseudo-classes</code> and <code>pseudo-elements</code> such as <code>:hover</code>, <code>:first-child</code>, <code>::before</code>, and <code>::after</code>.</li>
+      <li><code>element</code> - Targets all `<code>&lt;p&gt;</code>` elements, for example.</li>
+      <li><code>.class</code> - Targets elements with a specific class, like <code>.container</code>.</li>
+      <li><code>#id</code> - Targets the unique element with that ID, e.g., <code>#header</code>.</li>
+      <li><code>attribute selectors</code> - For example, <code>input[type="email"]</code> targets email inputs.</li>
+      <li><code>pseudo-classes</code> and <code>pseudo-elements</code> - e.g., <code>:hover</code>, <code>:first-child</code>, <code>::before</code>, and <code>::after</code>.</li>
     </ul>
 
     <!-- Advanced Form Inputs -->
@@ -158,9 +158,30 @@
       <button type="submit">Submit</button>
     </form>
 
+    <!-- Button Types Explanation -->
+    <h2>Different Types of Buttons</h2>
+    <p>Buttons can be created in three primary ways in HTML:</p>
+    <ol>
+      <li>
+        <strong>Standard Button (<code>&lt;button&gt;</code>):</strong>
+        <br>This element is versatile—you can use it as a submit button when inside a form or as a clickable element for JavaScript actions.
+        <br><pre><code>&lt;button type="button"&gt;Click Me&lt;/button&gt;</code></pre>
+      </li>
+      <li>
+        <strong>Submit Button (<code>input type="submit"</code>):</strong>
+        <br>This button submits a form when clicked.
+        <br><pre><code>&lt;input type="submit" value="Submit Form"&gt;</code></pre>
+      </li>
+      <li>
+        <strong>Reset Button (<code>input type="reset"</code>):</strong>
+        <br>This button resets all form fields to their initial values.
+        <br><pre><code>&lt;input type="reset" value="Reset Form"&gt;</code></pre>
+      </li>
+    </ol>
+
     <!-- HTML Entities for Displaying Code -->
     <h2>HTML Entities for Code</h2>
-    <p>To display HTML code as text, use HTML entities. For example:</p>
+    <p>To render HTML code as text rather than executing it, use HTML entities. For example:</p>
     <pre><code>&amp;lt;div&amp;gt;This is plain text&amp;lt;/div&amp;gt;</code></pre>
   </div>
 </body>
