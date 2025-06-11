@@ -1,77 +1,59 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-  padding: 20px;
-  background-color: lightgray;
-  color: black;
+.shadow-example {
+  width: 150px;
+  height: 50px;
+  background: lightgray;
+  box-shadow: 4px 4px 8px gray;
+  text-align: center;
+  line-height: 50px;
 }
 
-h1, h2 {
-  color: darkblue;
+.shadow-inset {
+  width: 150px;
+  height: 50px;
+  background: lightgray;
+  box-shadow: inset 5px 5px 10px black;
+  text-align: center;
+  line-height: 50px;
 }
 
-.container {
-  max-width: 900px;
-  margin: auto;
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0px 0px 10px gray;
+.shadow-blur {
+  width: 150px;
+  height: 50px;
+  background: lightgray;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+  text-align: center;
+  line-height: 50px;
 }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
-}
-
-th, td {
-  border: 1px solid black;
+.hover-btn {
   padding: 10px;
-  text-align: left;
-}
-
-th {
   background-color: navy;
   color: white;
-}
-
-code {
-  background: lightyellow;
-  padding: 5px;
-  font-family: "Courier New", monospace;
-  border-radius: 3px;
-}
-
-pre {
-  background: lightgoldenrodyellow;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-/* Advanced styling for semantic elements and forms */
-header, nav, article, aside, footer {
-  margin: 10px 0;
-}
-
-form {
-  margin: 20px 0;
-}
-
-input, button, select, textarea {
-  padding: 8px;
-  margin: 5px 0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-button {
-  background-color: darkblue;
-  color: white;
-  cursor: pointer;
   border: none;
 }
 
-button:hover {
-  background-color: navy;
+.hover-btn:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.hover-link {
+  color: blue;
+}
+
+.hover-link:hover {
+  text-decoration: underline;
+}
+
+button::before {
+  content: "🔥 ";
+}
+
+button::after {
+  content: " 💡";
+}
+
+p::first-letter {
+  font-size: 2rem;
+  font-weight: bold;
 }
