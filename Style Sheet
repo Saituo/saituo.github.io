@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Style Guide</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>🌈 My Style Guide</h1>
+  </header>
+
+  <section class="colors">
+    <h2>Color Palette</h2>
+    <div class="color-swatch" style="--color: #264653;">
+      <p class="name">Deep Sea</p>
+      <p class="value">#264653</p>
+      <p class="desc">Used for headers and footers.</p>
+    </div>
+    <div class="color-swatch" style="--color: #2a9d8f;">
+      <p class="name">Ocean Breeze</p>
+      <p class="value">#2a9d8f</p>
+      <p class="desc">Accent color for buttons and links.</p>
+    </div>
+    <div class="color-swatch" style="--color: hsl(36, 100%, 72%);">
+      <p class="name">Sunbeam</p>
+      <p class="value">hsl(36, 100%, 72%)</p>
+      <p class="desc">Highlights and callouts.</p>
+    </div>
+  </section>
+
+  <section class="fonts">
+    <h2>Typography</h2>
+
+    <div class="font-block" style="font-family: 'Montserrat', sans-serif;">
+      <h3>Montserrat</h3>
+      <p class="plain">The quick brown fox jumps over the lazy dog.</p>
+      <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+      <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+      <p class="underline">The quick brown fox jumps over the lazy dog.</p>
+    </div>
+
+    <div class="font-block" style="font-family: 'Playfair Display', serif;">
+      <h3>Playfair Display</h3>
+      <p class="plain">The quick brown fox jumps over the lazy dog.</p>
+      <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+      <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+      <p class="underline">The quick brown fox jumps over the lazy dog.</p>
+    </div>
+  </section>
+
+  <section class="elements">
+    <h2>Element Styles</h2>
+    <div class="element-style">
+      <h4>Main Heading (h1)</h4>
+      <code>font-family: Montserrat; font-size: 2.5rem; font-weight: 700;</code>
+    </div>
+    <div class="element-style">
+      <h4>Subheading (h2)</h4>
+      <code>font-family: Playfair Display; font-size: 1.75rem; font-style: italic;</code>
+    </div>
+    <div class="element-style">
+      <h4>Body Text (p)</h4>
+      <code>font-family: Montserrat; font-size: 1rem; line-height: 1.6;</code>
+    </div>
+  </section>
+</body>
+</html>
